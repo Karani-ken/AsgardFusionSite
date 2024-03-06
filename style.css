@@ -8,6 +8,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 5%;
 
 }
 
@@ -42,10 +43,10 @@ ul li a:hover {
 }
 
 .container h1 {
-    font-size: 24px;
+    font-size: 30px;
     padding: 1rem;
     color: blueviolet;
-    margin: 2rem 0;
+    margin: 1rem 0;
     text-decoration: none;
 }
 
@@ -58,7 +59,8 @@ p {
 .btn {
     color: #fff;
     background-color: blueviolet;
-    padding: 5px;
+    padding: 15px 10px;
+    width: 100px;
     border: none;
     border-radius: 10px;
 }
@@ -131,6 +133,7 @@ h1{
     margin-top: 10%;
     text-align: center;
     color: #fff;
+    padding: 20px;
 }
 
 .about p {
@@ -169,6 +172,9 @@ h1{
 .socials li{
     margin: 10px;
 }
+.socials a{
+    font-size: 24px;
+}
  #contact p{
     font-weight: bolder;
  }
@@ -189,3 +195,7 @@ h1{
  #footer-radius{
     border-radius: 10px 10px 0 0;
  }
+ .icons{
+    font-size: 30px;
+ }
+
